@@ -1,0 +1,47 @@
+﻿@charset "UTF-8"; 
+body
+{
+    padding:0px;
+    margin: 0px;
+    font-family:verdana, sans-serif;
+    background-color:white;
+}
+
+.container
+{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+header, main, footer
+{
+   padding: 5px;
+   border: 1px solid black;
+   margin-bottom: 10px;
+}
+
+nav
+{
+    background-color: slategray;
+    padding: 5px;
+}
+
+
+nav ul
+{
+    padding: 0px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+nav a
+{
+    color: white;
+}
+
